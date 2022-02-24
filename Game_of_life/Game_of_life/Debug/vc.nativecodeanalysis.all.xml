@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Viktor\University\OOP\Game_of_life\Game_of_life\</FILEPATH>
+      <FILENAME>Game_of_life.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GameOfLife::otherWorld' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GameOfLife::{ctor}</FUNCTION>
+    <DECORATED>??0GameOfLife@@QAE@XZ</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GameOfLife::otherWorld</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Viktor\University\OOP\Game_of_life\Game_of_life\</FILEPATH>
+      <FILENAME>Game_of_life.cpp</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '20024' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>272</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
